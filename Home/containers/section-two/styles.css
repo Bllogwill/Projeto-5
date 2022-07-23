@@ -1,0 +1,134 @@
+.section-two {
+  width: 100%;
+
+  padding: 50px 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+}
+
+.section-two .content-section-two {
+  width: 100%;
+  max-width: var(--max-width);
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.section-two .content-section-two .content-header-two {
+  width: 495px;
+  height: 135px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.section-two .content-section-two .content-header-two .title {
+  display: block;
+  margin-bottom: 15px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: var(--green-primary);
+
+  text-transform: uppercase;
+}
+
+.section-two .content-section-two .content-header-two h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+
+  color: #000000;
+}
+
+.section-two .content-section-two .content-cards {
+  width: 100%;
+
+  padding-top: 40px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.content-section-two .content-cards .card {
+  width: 380px;
+
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.content-section-two .content-cards .card img {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.content-section-two .content-cards .card h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  margin-bottom: 15px;
+
+  color: #000000;
+}
+
+.content-section-two .content-cards .card p {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
+  margin-bottom: 58px;
+
+  color: #000000;
+}
+
+.content-section-two .content-cards .card span {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
+  border: 0;
+
+  margin-right: 8px;
+
+  color: #000000;
+}
+
+.content-section-two .content-cards .card .button {
+  width: 159px;
+  height: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 5px;
+
+  background-color: aquamarine;
+
+  box-shadow: 7px 5px 5px #796d6d;
+}

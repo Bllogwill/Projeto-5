@@ -16,55 +16,16 @@
     />
 
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./containers/section-one/styles.css" />
+    <link rel="stylesheet" href="./containers/section-two/styles.css" />
 
     <title>Projeto-5</title>
   </head>
 
-  <body>
-    <section class="section-one">
-      <header class="header">
-        <div class="content-header">
-          <div class="logo">
-            <img src="./assets/images/logo1.png" alt="Logo1" />
-          </div>
-          <div class="contente-buttons">
-            <button class="button-header">Services</button>
-            <button class="button-header">Abouts Us</button>
-            <button class="button-header">Contact Us</button>
-            <button class="button-header">Login</button>
-            <button class="button-header">Resister</button>
-          </div>
-        </div>
-      </header>
-      <article class="content-section">
-        <div class="subcontent-section">
-          <div class="content-action">
-            <h1>Increase Your Customers Loyalty and Satisfaction</h1>
-            <p>
-              We help businesses like yours earn more customers, standout from
-              competitors, make more money.
-            </p>
-            <div class="start">Get Star</div>
-          </div>
-          <img
-            src="./assets/images/foto.png"
-            alt="Imagem de uma mulher com um leptop"
-          />
-        </div>
-      </article>
-      <article class="companies">
-        <div class="content-companies">
-          <img src="./assets/images/logos_google.png" alt="Logo Google" />
-          <img src="./assets/images/logos_monday.png" alt="Logo Monday" />
-          <img src="./assets/images/Notion.png" alt="Logo Notion" />
-          <img src="./assets/images/Slack.png" alt="Logo Slack" />
-          <img src="./assets/images/Trello-logo-blue 1.png" alt="Logo Trelo" />
-        </div>
-      </article>
-    </section>
+  <body onload="onLoadBody()">
+    <div id="container-section-one"></div>
+    <div id="container-section-two"></div>
 
-    <section class="section-two"></section>
-
-    <footer></footer>
+    <script src="./scripts.js"></script>
   </body>
 </html>
