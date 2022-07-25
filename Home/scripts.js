@@ -12,6 +12,9 @@ const containerSectionThree = document.getElementById('container-section-three')
 const pathContainerSectionFor = './containers/section-for/index.html'
 const containerSectionFor = document.getElementById('container-section-for')
 
+const pathContainerSectionFive = './containers/section-five/index.html'
+const containerSectionFive = document.getElementById('container-section-five')
+
 async function onLoadBody() {
   containerSectionOne.innerHTML = await (
     await fetch(pathContainerSectionOne)
@@ -28,10 +31,13 @@ async function onLoadBody() {
   containerSectionFor.innerHTML = await (
     await fetch(pathContainerSectionFor)
   ).text()
+
+  containerSectionFive.innerHTML = await (
+    await fetch(pathContainerSectionFive)
+  ).text()
 }
 
 function scrollToServices() {
-  console.log('A')
   containerSectionTwo.scrollIntoView({
     behavior: 'smooth'
   })

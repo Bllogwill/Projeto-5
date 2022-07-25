@@ -1,0 +1,239 @@
+.section-five {
+  width: 100%;
+  height: 650px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section-five .content-section-five {
+  width: 100%;
+  max-width: var(--max-width);
+  height: 650px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+}
+
+.section-five .content-section-five .section-card-five {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin-top: 120px;
+  margin-bottom: 100px;
+
+  background-color: transparent;
+}
+
+.section-five .content-section-five .section-card-five .set-card-five {
+  width: 380px;
+
+  margin-left: 100px;
+
+  background-color: transparent;
+}
+
+.section-five .content-section-five .section-card-five .set-card-five h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  text-transform: uppercase;
+  margin-bottom: 24px;
+
+  color: #20b15a;
+}
+
+.section-five .content-section-five .section-card-five .set-card-five h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+.section-five .content-section-five .content-card-five {
+  width: 100%;
+  max-width: var(--max-width);
+
+  height: 250px;
+}
+
+.section-five .content-section-five .section-card-five .card-five-button {
+  width: 180px;
+
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-five
+  .content-section-five
+  .section-card-five
+  .card-five-button
+  .button-card-five1 {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 0px solid #000000;
+
+  cursor: pointer;
+
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.section-five
+  .content-section-five
+  .section-card-five
+  .card-five-button
+  .button-card-five1:hover {
+  border: 1px solid var(--green-primary);
+  cursor: pointer;
+}
+
+.section-five
+  .content-section-five
+  .section-card-five
+  .card-five-button
+  .button-card-five1:focus {
+  border: 1px solid var(--green-primary);
+  background-color: var(--green-primary);
+  cursor: pointer;
+  color: white;
+}
+
+.section-five
+  .content-section-five
+  .section-card-five
+  .card-five-button
+  .button-card-five2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 0px solid #000000;
+
+  cursor: pointer;
+
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.section-five
+  .content-section-five
+  .section-card-five
+  .card-five-button
+  .button-card-five2:hover {
+  border: 1px solid var(--green-primary);
+  cursor: pointer;
+}
+
+.section-five
+  .content-section-five
+  .section-card-five
+  .card-five-button
+  .button-card-five2:focus {
+  border: 1px solid var(--green-primary);
+  background-color: var(--green-primary);
+  cursor: pointer;
+  color: white;
+}
+
+.section-five .content-section-five .content-box-five {
+  width: 100%;
+  max-width: var(--max-width);
+
+  align-items: center;
+  display: flex;
+
+  gap: 10px;
+
+  justify-content: space-between;
+  background-color: transparent;
+
+  background-color: transparent;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.section-five .content-section-five .content-card-five-one {
+  width: 450px;
+  height: 230px;
+
+  padding: 40px 30px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  background: #ffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  border-radius: 20px;
+}
+
+.section-five .content-section-five .content-card-five-three {
+  background-color: transparent;
+  display: flex;
+
+  margin-top: 20px;
+}
+
+.section-five .content-section-five .content-card-five-three img {
+  background: rgb(227, 227, 236);
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.section-five .content-section-five .content-card-five-three h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #000000;
+}
+
+.section-five .content-section-five .content-card-five-three p {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #000000;
+}
+
+.section-five .content-section-five .content-card-five-two p {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
