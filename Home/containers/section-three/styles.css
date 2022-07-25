@@ -41,6 +41,10 @@
   background-color: white;
 }
 
+.section-three .content-section-three .content-card-three:last-of-type {
+  border-right: 1px solid transparent;
+}
+
 .section-three .content-section-three .content-card-three p {
   margin-top: 10px;
   font-family: 'Poppins';
@@ -62,7 +66,6 @@
   font-weight: 800;
   font-size: 40px;
   line-height: 60px;
-  /* or 150% */
 
   color: #20b15a;
 }

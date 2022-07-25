@@ -1,0 +1,109 @@
+.section-for {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-for .content-section-for {
+  width: 100%;
+
+  max-width: var(--max-width);
+  padding: 60px 0px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.section-for .content-section-for .content-header-for {
+  width: 550px;
+  height: 150px;
+
+  margin-bottom: 60px;
+
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+.section-for .content-section-for .content-header-for .portfolio-section-for {
+  width: 495px;
+  height: 90px;
+
+  text-align: left;
+}
+
+.section-for .content-section-for .content-header-for .portfolio-section-for p {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.section-for .content-section-for .content-header-for .portfolio-for {
+  width: 155px;
+  height: 30px;
+
+  margin-bottom: 24px;
+}
+
+.section-for .content-section-for .content-header-for .portfolio-for h2 {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  text-transform: uppercase;
+  color: #20b15a;
+}
+
+.section-for .content-section-for .content-card-for {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.section-for .content-section-for .card-for {
+  width: 561px;
+
+  margin-bottom: 100px;
+
+  text-align: left;
+}
+
+.section-for .content-section-for .card-for.three {
+  margin-top: -100px;
+}
+
+.section-for .content-section-for .card-for.small {
+  height: 500px;
+}
+.section-for .content-section-for .card-for.big {
+  height: 676px;
+}
+
+.section-for .content-section-for .card-for p {
+  font-family: 'Avenir';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+
+  padding-top: 15px;
+}
+
+.section-for .content-section-for .card-for h2 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 34px;
+
+  padding-top: 30px;
+}
