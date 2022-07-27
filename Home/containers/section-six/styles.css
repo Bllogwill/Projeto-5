@@ -1,0 +1,187 @@
+.section-six {
+  width: 100%;
+  height: 700px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: transparent;
+}
+
+.content-six {
+  width: 100%;
+  max-width: var(--max-width);
+  height: 499px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+}
+
+.content-card-six {
+  width: 596px;
+  height: 271px;
+
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+.section-six .content-six .content-card-six .card-six .header-card-six {
+  width: 100%;
+  height: 30px;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+.section-six .content-six .content-card-six .card-six .header-card-six h2 {
+  width: min-content;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  margin-bottom: 22px;
+  text-transform: uppercase;
+
+  color: #20b15a;
+
+  background-color: transparent;
+}
+
+.section-six
+  .content-six
+  .content-card-six
+  .card-six
+  .text-card-six
+  .section-card-six {
+  width: 495px;
+  height: 90px;
+  background-color: transparent;
+  margin-left: 40px;
+}
+
+.section-six
+  .content-six
+  .content-card-six
+  .card-six
+  .text-card-six
+  .section-card-six
+  h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: capitalize;
+  border-color: 0;
+
+  color: #000000;
+  background-color: transparent;
+}
+
+.section-six .content-six .content-card-six .card-six .text-card-six .p p {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #8b8b8b;
+
+  margin-top: 5px;
+
+  margin-bottom: 40px;
+}
+
+.section-six .content-six .content-card-six .card-six .card-six-button {
+  width: 596px;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+
+  background-color: transparent;
+
+  border: 1px solid #000000;
+  border-radius: 14px;
+}
+
+.section-six
+  .content-six
+  .content-card-six
+  .card-six
+  .card-six-button
+  .card-six-button-type {
+  width: 596px;
+  height: 62px;
+
+  padding-left: 10px;
+
+  display: flex;
+  justify-content: space-between;
+
+  background-color: transparent;
+  border-radius: 10px;
+
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8b8b8b;
+  border: 0;
+}
+
+.section-six
+  .content-six
+  .content-card-six
+  .card-six
+  .card-six-button
+  .button-six {
+  width: 160px;
+  height: 52px;
+
+  justify-content: center;
+
+  margin-top: 5px;
+  margin-right: 3px;
+
+  border-radius: 10px;
+
+  color: white;
+  background: #f55f1d;
+
+  border: 0;
+
+  cursor: pointer;
+
+}
+
+.section-six
+  .content-six
+  .content-card-six
+  .card-six
+  .card-six-button
+  .button-six:hover{
+    transition: all 0.3s ease-in-out;
+    background-color:#ee8153; ;
+  }
