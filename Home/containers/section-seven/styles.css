@@ -1,0 +1,210 @@
+.section-seven {
+  width: 100%;
+  height: 450px;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+}
+
+.section-seven .content-section-seven {
+  width: 100%;
+  max-width: var(--max-width);
+  height: 400px;
+
+  display: flex;
+  justify-content: space-between;
+
+  border-radius: 5px;
+
+  background-color: #00ca72;
+}
+
+.section-seven .content-section-seven .footer1 {
+  width: 380px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+  background-color: transparent
+}
+
+.section-seven .content-section-seven .footer1,
+.footer2,
+.footer3,
+.footer4 {
+  margin-left: 100px;
+}
+
+.section-seven .content-section-seven .footer1 .footer-logo {
+  width: 240px;
+  height: 70px;
+
+  padding: 20px;
+
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: center;
+
+  background-color: transparent
+}
+
+.section-seven .content-section-seven .footer1 .footer-p {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+
+  background-color: transparent;
+
+  color: #000000;
+}
+
+.section-seven .content-section-seven .footer1 .footer-pp {
+  width: 320px;
+  height: 81px;
+
+  margin-bottom: 20px;
+
+  display: flex;
+  justify-content: flex-start;
+
+  background-color: transparent
+}
+
+.section-seven .content-section-seven .footer1 .footer-icons {
+  width: 209.38px;
+  height: 41px;
+
+  margin-bottom: 90px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 100px;
+
+  cursor: pointer;
+}
+
+.section-seven
+  .content-section-seven
+  .footer1
+  .footer-icons
+  .footer-content-icons1,
+.footer-content-icons2,
+.footer-content-icons3,
+.footer-content-icons4 {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 100px;
+  background: #62df94;
+}
+
+.section-seven .content-section-seven .footer1 .footer-p {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+.section-seven .content-section-seven .footer2 {
+  width: 380px;
+
+  background-color: transparent
+}
+
+.section-seven .content-section-seven .footer2 .card-seven {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+  color: #000000;
+}
+
+.section-seven .content-section-seven .footer2 .card-seven-links {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  color: #000000;
+
+  cursor: pointer;
+
+  gap: 30px;
+}
+
+.section-seven .content-section-seven .footer3 {
+  width: 380px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  background-color:transparent
+}
+
+.section-seven .content-section-seven .footer3 .footer-adr {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+
+  padding-top: 50px;
+
+  margin-bottom: 30px;
+
+  color: #000000;
+}
+
+.section-seven .content-section-seven .footer3 .footer-link-adr {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+.section-seven .content-section-seven .footer3 .footer-link-seven {
+  width: 270px;
+
+  display: flex;
+  justify-content: space-between;
+
+  text-align: left;
+
+  flex-direction: column;
+
+  background-color: transparent
+}

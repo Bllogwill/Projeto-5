@@ -18,6 +18,9 @@ const containerSectionFive = document.getElementById('container-section-five')
 const pathContainerSectionSix = './containers/section-six/index.html'
 const containerSectionSix = document.getElementById('container-section-six')
 
+const pathContainerSectionSeven = './containers/section-seven/index.html'
+const containerSectionSeven = document.getElementById('container-section-seven')
+
 async function onLoadBody() {
   containerSectionOne.innerHTML = await (
     await fetch(pathContainerSectionOne)
@@ -41,6 +44,10 @@ async function onLoadBody() {
 
   containerSectionSix.innerHTML = await (
     await fetch(pathContainerSectionSix)
+  ).text()
+
+  containerSectionSeven.innerHTML = await (
+    await fetch(pathContainerSectionSeven)
   ).text()
 }
 

@@ -178,7 +178,10 @@
 
   background-color: transparent;
   overflow-x: scroll;
-  overflow-y: hidden;
+}
+
+.section-five .content-section-five .content-box-five::-webkit-scrollbar {
+  width: 0px; /* width of the entire scrollbar */
 }
 
 .section-five .content-section-five .content-card-five-one {
