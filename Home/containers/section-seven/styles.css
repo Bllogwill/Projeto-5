@@ -33,7 +33,7 @@
   align-items: flex-start;
   flex-direction: column;
 
-  background-color: transparent
+  background-color: transparent;
 }
 
 .section-seven .content-section-seven .footer1,
@@ -54,7 +54,7 @@
   display: flex;
   justify-content: center;
 
-  background-color: transparent
+  background-color: transparent;
 }
 
 .section-seven .content-section-seven .footer1 .footer-p {
@@ -78,7 +78,7 @@
   display: flex;
   justify-content: flex-start;
 
-  background-color: transparent
+  background-color: transparent;
 }
 
 .section-seven .content-section-seven .footer1 .footer-icons {
@@ -128,7 +128,7 @@
 .section-seven .content-section-seven .footer2 {
   width: 380px;
 
-  background-color: transparent
+  background-color: transparent;
 }
 
 .section-seven .content-section-seven .footer2 .card-seven {
@@ -165,11 +165,13 @@
 .section-seven .content-section-seven .footer3 {
   width: 380px;
 
+  margin-right: 50px;
+
   display: flex;
 
   flex-direction: column;
 
-  background-color:transparent
+  background-color: transparent;
 }
 
 .section-seven .content-section-seven .footer3 .footer-adr {
@@ -206,5 +208,5 @@
 
   flex-direction: column;
 
-  background-color: transparent
+  background-color: transparent;
 }
